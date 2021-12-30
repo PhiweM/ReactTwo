@@ -5,7 +5,7 @@ class CampsiteInfo extends Component {
     render() {
         if(this.props.campsite !== undefined){
             return(
-                <div className="row" campsite={this.state.selectedCampsite}>
+                <div className="row" >
                 </div>
             );
         }
